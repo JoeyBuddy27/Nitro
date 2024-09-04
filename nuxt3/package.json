@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "dayjs": "^1.11.13",
+    "graphql": "^16.9.0",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "webpack-sources": "^3.2.3"
