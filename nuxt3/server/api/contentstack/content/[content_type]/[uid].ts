@@ -1,15 +1,7 @@
-import axios from 'axios';
-
-
-
-// server/api/contentstack/[uid].ts
-
 import { defineEventHandler, getQuery } from 'h3';
 
-// Define the API endpoint
 export default defineEventHandler(async (event: any) => {
 
-    // TODO: || development
 const environment = process.env.CONTENT_ENV || 'development';
 
 console.log('environment:', environment);
